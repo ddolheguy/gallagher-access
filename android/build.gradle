@@ -19,11 +19,11 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('GallagherMobileAccess_compileSdkVersion', 29)
-    buildToolsVersion safeExtGet('GallagherMobileAccess_buildToolsVersion', '29.0.2')
+    compileSdkVersion safeExtGet('GallagherMobileAccess_compileSdkVersion', 33)
+    buildToolsVersion safeExtGet('GallagherMobileAccess_buildToolsVersion', '33.0.0')
     defaultConfig {
-        minSdkVersion safeExtGet('GallagherMobileAccess_minSdkVersion', 16)
-        targetSdkVersion safeExtGet('GallagherMobileAccess_targetSdkVersion', 29)
+        minSdkVersion safeExtGet('GallagherMobileAccess_minSdkVersion', 23)
+        targetSdkVersion safeExtGet('GallagherMobileAccess_targetSdkVersion', 33)
         versionCode 1
         versionName "1.0"
 
